@@ -1,3 +1,4 @@
+# 
 # magic_bubble_sort(numbers)
 # [1, 3, 19, 23, 2, 4, 4, 20, 32]
 
@@ -27,7 +28,6 @@ def magic_bubble_sort(numbers: List[int]):
                 numbers[i], numbers[i + 1] = numbers[i + 1], numbers[i]
         stop_position -= 1
     return numbers
-
 
 numbers1 = [23, 32, 1, 3, 4, 19, 20, 2, 4]
 print(magic_bubble_sort(numbers1))

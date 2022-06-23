@@ -1,4 +1,4 @@
-# open练习
+# open库的练习
 opfile = open(r"E:\百度云同步盘\BaiduNetdiskWorkspace\pythontest\test1py\python练习\cj.txt", mode='r',
               encoding="utf-8")  # 读取文件，不写入
 opfile1 = open(r"E:\百度云同步盘\BaiduNetdiskWorkspace\pythontest\test1py\python练习\cj1.txt", mode='w',

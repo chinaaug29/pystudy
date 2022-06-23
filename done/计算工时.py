@@ -1,6 +1,7 @@
 import re
 from typing import Optional, Match
 
+
 work_time = input("请输入你的工作时间：")
 print(f"你的工作时间是{work_time}小时！")
 new_work_time: Optional[Match[str]] = re.match(r"^\d+\.?\d*$", work_time)
