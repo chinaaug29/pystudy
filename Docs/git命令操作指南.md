@@ -70,6 +70,8 @@
 - git merge origin/master                                   # 合并远程master分支至当前分支
 - git cherry-pick ff44785404a8e                             # 合并提交ff44785404a8e的修改
 - git push origin master                                    # 将当前分支push到远程master分支
+- git push  -u origin master                               # 将本地的master分支推送到origin主机，同时指定origin为默认主机，后面就可以不加任何参数使用git push了
+- git push -f origin master                                  # 强制上传覆盖远程文件,慎用
 - git push origin :hotfixes/BJVEP933                        # 删除远程仓库的hotfixes/BJVEP933分支
 - git push --tags                                           # 把所有tag推送到远程仓库
 - git fet- ch                                                 # 获取所有远程分支（不更新本地分支，另需merge）
