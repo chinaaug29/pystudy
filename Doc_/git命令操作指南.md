@@ -45,6 +45,7 @@
 - git diff origin/master..master                            # 比较远程分支master上有本地分支master上没有的
 - git diff origin/master..master --stat                     # 只显示差异的文件，不显示具体内容
 - git remote add origin git+ssh://git@192.168.53.168/VT.git # 增加远程定义（用于push/pull/fetch）
+- git remote set-url origin  git@github.com:someaccount/someproject.git     # 改成ssh，这里你项目的ssh地址
 - git branch                                                # 显示本地分支
 - git branch --contains 50089                               # 显示包含提交50089的分支
 - git branch -a                                             # 显示所有分支
