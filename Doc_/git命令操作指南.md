@@ -101,3 +101,6 @@
 - 一直确定直到结束；根据日志信息里面的 SSH KEY 存储路径找到 .ssh/id_rsa.pub 文件
 - 复制 .ssh/id_rsa.pub 文件内容,id__rsa.pub是ssh的公钥
 - 公钥是存储在需要免密登录的网站,私钥保存在本地用于免密登录
+## 同一台电脑配置Gitee、Github 的 Git SSH公钥_
+- [同一台电脑配置Gitee、Github 的 Git SSH公钥_测试开发小记的博客-CSDN博客_git删除ssh公钥](https://blog.csdn.net/u010698107/article/details/113485131?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-3-113485131-null-null.pc_agg_new_rank&utm_term=git+ssh+%E6%8D%A2%E4%BA%86%E5%8F%B0%E7%94%B5%E8%84%91&spm=1000.2123.3001.4430)
+- [git ssh 换了台电脑 - CSDN](https://www.csdn.net/tags/OtDaYg1sMTE1NjctYmxvZwO0O0OO0O0O.html)
